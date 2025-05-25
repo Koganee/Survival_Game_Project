@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://by81i8gx6vbok"
+path.s3tc="res://.godot/imported/PS1_NaturAssetCollection-a8e2c3d6c9daaca9c9b36a7bddbaefc7_stonewall.jpg-f42343f3f98e2668fbab5bc3d93fbc1f.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "471ad87d4439aed9175d8ba83c82e71e"
+}
+
+[deps]
+
+source_file="res://assets/PS1 Dark Fantasy Horror Game Assets (by Stark Crafts)/PS1_ForestAsset/PS1_NaturAssetCollection-a8e2c3d6c9daaca9c9b36a7bddbaefc7_stonewall.jpg"
+dest_files=["res://.godot/imported/PS1_NaturAssetCollection-a8e2c3d6c9daaca9c9b36a7bddbaefc7_stonewall.jpg-f42343f3f98e2668fbab5bc3d93fbc1f.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

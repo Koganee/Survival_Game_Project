@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cov4b75rwo2rd"]
+
+[ext_resource type="PackedScene" uid="uid://mgtlanpei6d" path="res://assets/PS1 Dark Fantasy Horror Game Assets (by Stark Crafts)/PS1_ForestAsset/PS1_NaturAssetCollection.fbx" id="1_2e6ct"]
+
+[node name="Root Scene" instance=ExtResource("1_2e6ct")]
+
+[node name="Tree" parent="RootNode" index="0"]
+transform = Transform3D(18.9284, 0, 0, 0, -2.25645e-06, 18.9284, 0, -18.9284, -2.25645e-06, -3.73479, 0.186988, 0)

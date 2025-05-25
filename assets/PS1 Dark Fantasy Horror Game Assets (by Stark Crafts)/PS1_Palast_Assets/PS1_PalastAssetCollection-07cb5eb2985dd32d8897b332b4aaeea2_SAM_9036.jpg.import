@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://54jyl8f1xp5r"
+path.s3tc="res://.godot/imported/PS1_PalastAssetCollection-07cb5eb2985dd32d8897b332b4aaeea2_SAM_9036.jpg-3eca749055604d4b4bd5a26afe76ae6f.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "ba47b1ffe0054123487f2df1c6ee7e56"
+}
+
+[deps]
+
+source_file="res://assets/PS1 Dark Fantasy Horror Game Assets (by Stark Crafts)/PS1_Palast_Assets/PS1_PalastAssetCollection-07cb5eb2985dd32d8897b332b4aaeea2_SAM_9036.jpg"
+dest_files=["res://.godot/imported/PS1_PalastAssetCollection-07cb5eb2985dd32d8897b332b4aaeea2_SAM_9036.jpg-3eca749055604d4b4bd5a26afe76ae6f.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

@@ -16,8 +16,10 @@ func _process(delta):
 func _on_body_entered(body):
 	if body.name == "CharacterBody3D":
 		interact_label.visible = true
+		Global.knockDoor_in_range = true
 
 
 func _on_body_exited(body):
 	if body.name == "CharacterBody3D":
 		interact_label.visible = false
+		Global.knockDoor_in_range = false
