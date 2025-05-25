@@ -4,6 +4,7 @@
 
 [resource]
 resource_name = "Building_7"
+transparency = 4
 cull_mode = 2
 albedo_texture = ExtResource("1_7q83i")
 metallic = 1.0

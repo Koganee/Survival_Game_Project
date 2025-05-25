@@ -3,6 +3,8 @@ extends CharacterBody3D
 @onready var door_interaction = $DoorInteraction
 @onready var dialogue_narration = $DialogueNarration
 @onready var dialogue_box = $Head/Camera3D/CanvasLayer/DialogueBox
+@onready var radio_interaction = $RadioInteraction
+
 
 @onready var footstep_player = $FootstepPlayer
 var footstep_timer := 0.0
@@ -33,8 +35,12 @@ var player_can_move = false
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	dialogue_narration.start_dialogue()
-
+	var current_scene = get_tree().current_scene
+	if current_scene and current_scene.name == "World":
+		dialogue_narration.start_dialogue()
+	else:
+		player_can_move = true
+		dialogue_box.visible = false
 
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
@@ -107,6 +113,7 @@ func _physics_process(delta):
 		
 		door_interaction.knock()
 		door_interaction.enter_door()
+		radio_interaction.activate_radio()
 
 
 func _headbob(time) -> Vector3:

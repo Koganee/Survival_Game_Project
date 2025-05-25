@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://bkhk3gjr0d10t"]
+[gd_scene load_steps=47 format=3 uid="uid://bkhk3gjr0d10t"]
 
 [ext_resource type="Texture2D" uid="uid://qv2djyxnqvp" path="res://assets/- Classic 64 Asset Pack 0.6/Ground/Materials/grass_03.png" id="1_6e15r"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_cmb6n"]
@@ -20,6 +20,7 @@
 [ext_resource type="Script" path="res://scenes/DialogueManager.gd" id="15_wflko"]
 [ext_resource type="Script" path="res://scripts/door_interaction.gd" id="17_vdbem"]
 [ext_resource type="Script" path="res://scripts/DialogueNarration.gd" id="19_w7r77"]
+[ext_resource type="Script" path="res://scripts/radio_interaction.gd" id="21_6lgbm"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3jmsa"]
 albedo_texture = ExtResource("1_6e15r")
@@ -77,7 +78,6 @@ size = Vector3(0.442566, 3.11409, 2.72876)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vw1mj"]
 resource_name = "Tree"
-albedo_color = Color(1, 1, 1, 1)
 albedo_texture = ExtResource("9_urev1")
 metallic = 0.4
 
@@ -777,6 +777,9 @@ volume_db = 15.0
 
 [node name="DialogueNarration" type="Node3D" parent="CharacterBody3D"]
 script = ExtResource("19_w7r77")
+
+[node name="RadioInteraction" type="Node3D" parent="CharacterBody3D"]
+script = ExtResource("21_6lgbm")
 
 [connection signal="body_entered" from="Map/DoorCollider" to="Map/DoorCollider" method="_on_body_entered"]
 [connection signal="body_exited" from="Map/DoorCollider" to="Map/DoorCollider" method="_on_body_exited"]
