@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://caub0wseun2xx"
+path="res://.godot/imported/PillsBox2.wav-2ba9f589943effa4c55cede9d35130cd.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Medicine/PillsBox2.wav"
+dest_files=["res://.godot/imported/PillsBox2.wav-2ba9f589943effa4c55cede9d35130cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

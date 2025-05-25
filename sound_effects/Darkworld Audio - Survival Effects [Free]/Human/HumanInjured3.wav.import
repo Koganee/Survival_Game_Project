@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dejurv3toe76f"
+path="res://.godot/imported/HumanInjured3.wav-68e2581e0e588ab1f683ad2f79d1dc7e.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Human/HumanInjured3.wav"
+dest_files=["res://.godot/imported/HumanInjured3.wav-68e2581e0e588ab1f683ad2f79d1dc7e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

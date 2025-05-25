@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2oiekfo0tx0x"
+path="res://.godot/imported/OldDoorClose.wav-d3097d8c432b091a1ee17a79aac6ba93.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Environment/OldDoorClose.wav"
+dest_files=["res://.godot/imported/OldDoorClose.wav-d3097d8c432b091a1ee17a79aac6ba93.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

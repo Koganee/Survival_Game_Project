@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cyvsl4jfpsx8b"
+path="res://.godot/imported/BeeBuzz.wav-350077b84290540468c3e5872d2b1133.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Environment/BeeBuzz.wav"
+dest_files=["res://.godot/imported/BeeBuzz.wav-350077b84290540468c3e5872d2b1133.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

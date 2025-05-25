@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btj8jsi3e12ia"
+path="res://.godot/imported/BlisterPack1.wav-9443379b640e5247ca40435084f2b8a1.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Medicine/BlisterPack1.wav"
+dest_files=["res://.godot/imported/BlisterPack1.wav-9443379b640e5247ca40435084f2b8a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

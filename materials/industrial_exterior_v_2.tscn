@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://m1gbar4nk3wu"]
+
+[ext_resource type="PackedScene" uid="uid://cllyvbfh3oqo1" path="res://Models_Individual/Industrial_exterior_v2.glb" id="1_cu37f"]
+
+[node name="Industrial_exterior_v2" instance=ExtResource("1_cu37f")]
+
+[node name="Building_4" parent="." index="3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.524, 0.486418, -14.2688)
+
+[node name="Wall" parent="." index="66"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.56861, 0.0313457, 34.2698)

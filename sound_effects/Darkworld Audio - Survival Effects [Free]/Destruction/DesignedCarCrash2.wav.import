@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dw4hvbt0k64hi"
+path="res://.godot/imported/DesignedCarCrash2.wav-d16d63d3d63c94ca0d254b5f0242ee78.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Destruction/DesignedCarCrash2.wav"
+dest_files=["res://.godot/imported/DesignedCarCrash2.wav-d16d63d3d63c94ca0d254b5f0242ee78.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

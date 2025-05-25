@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgu17f81v653r"
+path="res://.godot/imported/ClothesRubberMovement3.wav-0a95ef3b8e81b4d52c2878d6148af88c.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Clothing/ClothesRubberMovement3.wav"
+dest_files=["res://.godot/imported/ClothesRubberMovement3.wav-0a95ef3b8e81b4d52c2878d6148af88c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

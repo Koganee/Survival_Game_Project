@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djar1h766rapw"
+path="res://.godot/imported/FootstepsStoneDirt1.wav-cd6ff93cf79f9f2643d44797c1f0447c.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Footsteps/FootstepsStoneDirt1.wav"
+dest_files=["res://.godot/imported/FootstepsStoneDirt1.wav-cd6ff93cf79f9f2643d44797c1f0447c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

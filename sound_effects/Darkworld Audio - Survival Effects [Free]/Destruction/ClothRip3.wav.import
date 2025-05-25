@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://y16d8ml0o48v"
+path="res://.godot/imported/ClothRip3.wav-56179c6f0244318ade5452f0c13a36af.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Destruction/ClothRip3.wav"
+dest_files=["res://.godot/imported/ClothRip3.wav-56179c6f0244318ade5452f0c13a36af.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

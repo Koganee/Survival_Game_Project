@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cac8xaswtwffs"
+path="res://.godot/imported/MatchLight1.wav-d830651749ccd1e12fcaa903cbc03384.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Equipment/MatchLight1.wav"
+dest_files=["res://.godot/imported/MatchLight1.wav-d830651749ccd1e12fcaa903cbc03384.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

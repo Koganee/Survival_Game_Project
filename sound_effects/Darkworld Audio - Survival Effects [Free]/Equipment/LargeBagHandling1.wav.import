@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bk35no4w7m0ek"
+path="res://.godot/imported/LargeBagHandling1.wav-fbf7f920408ae8481655ba83e0e6a949.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Equipment/LargeBagHandling1.wav"
+dest_files=["res://.godot/imported/LargeBagHandling1.wav-fbf7f920408ae8481655ba83e0e6a949.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

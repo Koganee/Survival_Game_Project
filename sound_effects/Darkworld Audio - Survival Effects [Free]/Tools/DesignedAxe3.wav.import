@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ow2p8yy7uy0b"
+path="res://.godot/imported/DesignedAxe3.wav-3778966408c345924be6a25ade603eb4.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Tools/DesignedAxe3.wav"
+dest_files=["res://.godot/imported/DesignedAxe3.wav-3778966408c345924be6a25ade603eb4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

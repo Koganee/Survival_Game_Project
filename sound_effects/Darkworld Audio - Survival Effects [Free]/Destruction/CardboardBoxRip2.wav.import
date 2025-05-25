@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c55emts10t2vt"
+path="res://.godot/imported/CardboardBoxRip2.wav-0e6ce086be13448fc500ea070b5cbd20.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Destruction/CardboardBoxRip2.wav"
+dest_files=["res://.godot/imported/CardboardBoxRip2.wav-0e6ce086be13448fc500ea070b5cbd20.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

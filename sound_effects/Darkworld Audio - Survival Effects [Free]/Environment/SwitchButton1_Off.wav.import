@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1741ul567f87"
+path="res://.godot/imported/SwitchButton1_Off.wav-2748b217ee32b7a0739394b8a60a88f2.sample"
+
+[deps]
+
+source_file="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Environment/SwitchButton1_Off.wav"
+dest_files=["res://.godot/imported/SwitchButton1_Off.wav-2748b217ee32b7a0739394b8a60a88f2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
