@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1fq5e0n6n4t5"
+path="res://.godot/imported/Mechanical Randomness_Spooky_4.wav-766a37478f2ab0657afb4b556f514cbf.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Ambient/Mechanical Randomness_Spooky_4.wav"
+dest_files=["res://.godot/imported/Mechanical Randomness_Spooky_4.wav-766a37478f2ab0657afb4b556f514cbf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

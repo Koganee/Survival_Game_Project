@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c22k7a0cct7ys"
+path="res://.godot/imported/Creepy_ambience_5.wav-557cb77f8021d2747582bbb1a4d8122c.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Ambient/Creepy_ambience_5.wav"
+dest_files=["res://.godot/imported/Creepy_ambience_5.wav-557cb77f8021d2747582bbb1a4d8122c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -4,6 +4,7 @@ extends CharacterBody3D
 @onready var dialogue_narration = $DialogueNarration
 @onready var dialogue_box = $Head/Camera3D/CanvasLayer/DialogueBox
 @onready var radio_interaction = $RadioInteraction
+@onready var interact_label = $Head/Camera3D/CanvasLayer/InteractLabel
 
 
 @onready var footstep_player = $FootstepPlayer
@@ -110,10 +111,16 @@ func _physics_process(delta):
 				footstep_timer = footstep_interval
 		else:
 			footstep_timer = 0.0
+			
+		if Global.radio_in_range == true or Global.knockDoor_in_range == true:
+			interact_label.visible = true
+		else:
+			interact_label.visible = false
 		
 		door_interaction.knock()
 		door_interaction.enter_door()
 		radio_interaction.activate_radio()
+		radio_interaction.place_pizza()
 
 
 func _headbob(time) -> Vector3:

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bfj0fwr3k2coc"
+path="res://.godot/imported/Swoosh_3.wav-5334771d9ce8fc34579159d315bd8b1b.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Character/Swoosh_3.wav"
+dest_files=["res://.godot/imported/Swoosh_3.wav-5334771d9ce8fc34579159d315bd8b1b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

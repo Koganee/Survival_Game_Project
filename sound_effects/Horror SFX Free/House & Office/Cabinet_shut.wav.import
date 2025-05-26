@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dhjhdhvbptm5u"
+path="res://.godot/imported/Cabinet_shut.wav-87b2a7248081d458485612dc4b32fd8f.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/House & Office/Cabinet_shut.wav"
+dest_files=["res://.godot/imported/Cabinet_shut.wav-87b2a7248081d458485612dc4b32fd8f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

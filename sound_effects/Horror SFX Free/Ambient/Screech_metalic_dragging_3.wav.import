@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvs6c724umq73"
+path="res://.godot/imported/Screech_metalic_dragging_3.wav-7fa6ba545ffe4afa1d828e82d135de70.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Ambient/Screech_metalic_dragging_3.wav"
+dest_files=["res://.godot/imported/Screech_metalic_dragging_3.wav-7fa6ba545ffe4afa1d828e82d135de70.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

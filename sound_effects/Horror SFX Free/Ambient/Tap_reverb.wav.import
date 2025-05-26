@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df3swj45q3jaj"
+path="res://.godot/imported/Tap_reverb.wav-03cf56c8d9d384e670c68c3568087c6d.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Ambient/Tap_reverb.wav"
+dest_files=["res://.godot/imported/Tap_reverb.wav-03cf56c8d9d384e670c68c3568087c6d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

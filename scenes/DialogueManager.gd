@@ -4,6 +4,7 @@ class_name DialogueManager
 @onready var dialogue_box = self
 @onready var speaker_label = dialogue_box.get_node("SpeakerLabel")
 @onready var text_label = dialogue_box.get_node("TextLabel")
+@onready var typing_sound_player = $TypingSoundPlayer
 
 var lines = []
 var current_line = 0
@@ -29,6 +30,8 @@ func show_next_line():
 func type_text(text):
 	text_label.clear()
 	typing = true
+	if typing == true:
+		typing_sound_player.play()
 	for i in text.length():
 		text_label.append_text(text[i])
 		await get_tree().create_timer(text_speed).timeout

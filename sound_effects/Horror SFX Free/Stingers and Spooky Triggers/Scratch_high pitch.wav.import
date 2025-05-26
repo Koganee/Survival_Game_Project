@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gegbm43sw6b7"
+path="res://.godot/imported/Scratch_high pitch.wav-e187320e6ab046a0e9397f594497864a.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Stingers and Spooky Triggers/Scratch_high pitch.wav"
+dest_files=["res://.godot/imported/Scratch_high pitch.wav-e187320e6ab046a0e9397f594497864a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1wy7f0vljiuv"
+path="res://.godot/imported/Coin Flip_3.wav-ba1262c649e2988b76169e7132e353fc.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Character/Coin Flip_3.wav"
+dest_files=["res://.godot/imported/Coin Flip_3.wav-ba1262c649e2988b76169e7132e353fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

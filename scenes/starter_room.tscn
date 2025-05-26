@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=3 uid="uid://ibj1hxqvqbd6"]
+[gd_scene load_steps=58 format=3 uid="uid://ibj1hxqvqbd6"]
 
 [ext_resource type="Texture2D" uid="uid://c47hpf5bcd3o3" path="res://assets/PSX_Models_And_Textures/All/Textures/Wood_13.jpg" id="1_jm3sk"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_nvk1h"]
@@ -13,8 +13,16 @@
 [ext_resource type="AudioStream" uid="uid://d0wokmknksh03" path="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Footsteps/FootstepsWetGravelStones3.wav" id="6_od15f"]
 [ext_resource type="AudioStream" uid="uid://1ieeyx5sg1a4" path="res://audio_dialogue/midnight_pizza_audio_1.wav" id="6_ukwtc"]
 [ext_resource type="Script" path="res://scripts/door_interaction.gd" id="7_5ceeu"]
+[ext_resource type="AudioStream" uid="uid://fck1gwapeglw" path="res://audio_dialogue/midnight_pizza_audio_2.wav" id="7_jc7ih"]
 [ext_resource type="AudioStream" uid="uid://byx7jj7v18k80" path="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Tools/HammerNail1.wav" id="8_y63na"]
+[ext_resource type="AudioStream" uid="uid://bbsuuc6gsv1k0" path="res://sound_effects/Horror SFX Free/House & Office/Door_knocking_quiet.wav" id="8_ymy5k"]
+[ext_resource type="Script" path="res://scripts/Portal.gd" id="9_7xa7u"]
+[ext_resource type="Shader" path="res://scenes/starter_room.gdshader" id="9_11jft"]
 [ext_resource type="Script" path="res://scripts/DialogueNarration.gd" id="9_gvrf5"]
+[ext_resource type="Texture2D" uid="uid://bfg47syciacv5" path="res://particles/masks for particles/masks for  particles/20.png" id="11_gq0mh"]
+[ext_resource type="AudioStream" uid="uid://c6hel7vkj3coi" path="res://sound_effects/Darkworld Audio - Survival Effects [Free]/Combat/DesignedGunshot_Pistol3_Reverb.wav" id="12_bxyed"]
+[ext_resource type="AudioStream" uid="uid://crpl65pjwrytq" path="res://sound_effects/Horror SFX Free/House & Office/Typing.wav" id="12_lnihy"]
+[ext_resource type="Script" path="res://scripts/PortalEntrance.gd" id="14_3s10c"]
 [ext_resource type="Script" path="res://scripts/radio_interaction.gd" id="16_pa8w3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xeygk"]
@@ -31,7 +39,7 @@ metallic = 1.0
 roughness = 0.858579
 texture_filter = 2
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_n6sjg"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_11atc"]
 _surfaces = [{
 "aabb": AABB(-2.01488, -0.0860572, -0.231113, 4.02977, 2.99447, 0.462227),
 "format": 34896613377,
@@ -61,7 +69,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 0, 0, 142, 218, 255, 191, 0, 0, 0, 0, 142, 218, 0, 128, 255, 255, 0, 0, 142, 218, 0, 128, 255, 255, 0, 0, 142, 218, 0, 0, 254, 255, 155, 244, 143, 218, 178, 146, 254, 255, 155, 244, 143, 218, 76, 173, 254, 255, 155, 244, 143, 218, 41, 13, 254, 255, 155, 244, 143, 218, 0, 0, 254, 255, 155, 244, 143, 218, 15, 13, 254, 255, 155, 244, 254, 255, 255, 191, 254, 255, 155, 244, 254, 255, 0, 128, 254, 255, 155, 244, 254, 255, 0, 0, 0, 0, 155, 244, 254, 255, 255, 191, 0, 0, 155, 244, 254, 255, 255, 191, 0, 0, 155, 244, 254, 255, 0, 128, 0, 0, 155, 244, 143, 218, 226, 185, 0, 0, 155, 244, 143, 218, 178, 210, 0, 0, 155, 244, 143, 218, 76, 173, 0, 0, 155, 244, 143, 218, 178, 146, 0, 0, 155, 244, 143, 218, 27, 194, 254, 255, 254, 255, 254, 255, 0, 128, 254, 255, 254, 255, 254, 255, 255, 191, 254, 255, 254, 255, 254, 255, 0, 0, 0, 0, 254, 255, 254, 255, 255, 191, 0, 0, 254, 255, 254, 255, 0, 128, 0, 0, 254, 255, 254, 255, 255, 191, 254, 255, 255, 255, 0, 0, 0, 0, 254, 255, 255, 255, 0, 0, 255, 191, 254, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 255, 191, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 255, 191, 0, 0, 155, 244, 0, 0, 255, 191, 0, 0, 155, 244, 0, 0, 255, 63, 0, 0, 155, 244, 0, 0, 0, 0, 254, 255, 155, 244, 0, 0, 255, 63, 254, 255, 155, 244, 0, 0, 0, 0, 254, 255, 155, 244, 0, 0, 0, 0, 0, 0, 0, 0, 129, 36, 255, 191, 0, 0, 0, 0, 129, 36, 0, 0, 255, 255, 0, 0, 129, 36, 0, 0, 255, 255, 0, 0, 129, 36, 0, 0, 254, 255, 155, 244, 129, 36, 228, 61, 254, 255, 155, 244, 129, 36, 176, 18, 254, 255, 155, 244, 129, 36, 0, 0, 254, 255, 155, 244, 129, 36, 0, 0, 254, 255, 155, 244, 129, 36, 182, 10, 0, 0, 155, 244, 129, 36, 123, 201, 0, 0, 155, 244, 129, 36, 26, 194, 0, 0, 155, 244, 129, 36, 78, 173, 0, 0, 155, 244, 129, 36, 79, 45, 0, 0, 155, 244, 129, 36, 0, 0, 255, 127, 254, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 191, 255, 127, 255, 127, 255, 255, 0, 0, 255, 127, 98, 13, 176, 198, 242, 206, 255, 127, 139, 180, 15, 139, 0, 0, 255, 127, 255, 127, 255, 255, 0, 0, 255, 191, 255, 127, 254, 255, 0, 0, 255, 127, 255, 127, 255, 255, 89, 146, 41, 215, 255, 127, 254, 255, 255, 127, 254, 255, 0, 0, 255, 127, 96, 20, 61, 87, 255, 127, 255, 255, 254, 255, 255, 127, 0, 0, 255, 191, 255, 127, 254, 255, 255, 127, 255, 255, 254, 255, 255, 127, 255, 255, 255, 127, 254, 255, 255, 127, 255, 191, 255, 127, 255, 127, 254, 255, 255, 255, 255, 127, 254, 255, 255, 127, 255, 127, 254, 255, 0, 0, 255, 127, 255, 255, 255, 127, 0, 0, 255, 127, 255, 255, 255, 127, 255, 191, 255, 127, 255, 127, 254, 255, 255, 255, 255, 127, 255, 255, 255, 127, 255, 191, 255, 127, 190, 40, 94, 148, 0, 0, 255, 127, 240, 206, 255, 127, 14, 177, 255, 127, 4, 191, 81, 141, 137, 147, 112, 220, 65, 87, 159, 235, 255, 127, 254, 255, 0, 0, 255, 127, 196, 231, 255, 127)
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_n6sjg")
+shadow_mesh = SubResource("ArrayMesh_11atc")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_msnx7"]
 points = PackedVector3Array(2.0145, 2.90841, -0.231113, 2.0145, 2.90812, 0.231107, 2.01489, -0.0860572, 0.163466, 2.01489, -0.0860572, -0.165237, 2.0145, 2.77504, -0.231113, -2.01488, 2.90841, -0.231113, 2.0145, 2.77504, 0.231107, -2.01488, 2.90812, 0.231107, -2.01488, -0.0860572, 0.163466, -2.01488, -0.0860572, -0.165237, -2.01488, 2.77504, -0.231113, -2.01488, 2.77504, 0.231107)
@@ -88,9 +96,9 @@ points = PackedVector3Array(2.0145, 2.90841, -0.231113, 2.0145, 2.90812, 0.23110
 size = Vector3(1, 2.97458, 2.6933)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q3wnj"]
-albedo_color = Color(0, 0, 0, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_cf0e3"]
+resource_local_to_scene = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5jmyo"]
 resource_name = "Metal_06"
@@ -204,23 +212,6 @@ shadow_mesh = SubResource("ArrayMesh_8g0he")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ut11y"]
 size = Vector3(10.5508, 1, 11.0131)
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_0nmm5"]
-shader = ExtResource("2_5srsn")
-shader_parameter/vhs_resolution = Vector2(1500, 1500)
-shader_parameter/samples = 2
-shader_parameter/crease_noise = 0.7
-shader_parameter/crease_opacity = 0.5
-shader_parameter/filter_intensity = 0.1
-shader_parameter/tape_crease_smear = 0.2
-shader_parameter/tape_crease_intensity = 0.2
-shader_parameter/tape_crease_jitter = 0.1
-shader_parameter/tape_crease_speed = 0.2
-shader_parameter/tape_crease_discoloration = 1.0
-shader_parameter/bottom_border_thickness = 6.0
-shader_parameter/bottom_border_jitter = 6.0
-shader_parameter/noise_intensity = 0.3
-shader_parameter/noise_texture = ExtResource("3_e5mht")
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uu0i0"]
 albedo_texture = ExtResource("5_vling")
 
@@ -229,7 +220,7 @@ resource_name = "Foods_04"
 cull_mode = 2
 roughness = 0.0764706
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_2u066"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ygp1x"]
 _surfaces = [{
 "aabb": AABB(-0.186431, -0.00696903, -0.196025, 0.372862, 0.0139481, 0.39205),
 "format": 34896613377,
@@ -261,7 +252,33 @@ _surfaces = [{
 "vertex_data": PackedByteArray(255, 127, 208, 255, 59, 8, 54, 204, 26, 207, 232, 127, 114, 24, 170, 4, 255, 127, 232, 127, 0, 0, 0, 0, 195, 247, 208, 255, 253, 90, 121, 196, 255, 255, 232, 127, 113, 88, 14, 24, 255, 255, 232, 127, 141, 167, 133, 63, 195, 247, 208, 255, 1, 165, 45, 189, 26, 207, 232, 127, 140, 231, 94, 98, 4, 202, 208, 255, 227, 224, 151, 182, 255, 127, 232, 127, 255, 255, 254, 127, 255, 127, 208, 255, 195, 247, 200, 179, 228, 48, 232, 127, 140, 231, 94, 98, 250, 53, 208, 255, 227, 224, 151, 182, 0, 0, 232, 127, 141, 167, 133, 63, 59, 8, 208, 255, 1, 165, 45, 189, 0, 0, 232, 127, 113, 88, 14, 24, 59, 8, 208, 255, 253, 90, 121, 196, 228, 48, 232, 127, 114, 24, 170, 4, 255, 127, 0, 0, 195, 247, 54, 76, 59, 8, 0, 0, 1, 165, 209, 66, 250, 53, 0, 0, 27, 31, 234, 53, 255, 127, 0, 0, 59, 8, 200, 51, 59, 8, 0, 0, 253, 90, 133, 59, 250, 53, 0, 0, 227, 224, 103, 73, 4, 202, 0, 0, 227, 224, 103, 73, 195, 247, 0, 0, 1, 165, 209, 66, 195, 247, 0, 0, 253, 90, 133, 59, 4, 202, 0, 0, 27, 31, 234, 53, 4, 202, 208, 255, 27, 31, 20, 202, 250, 53, 208, 255, 27, 31, 20, 202, 255, 255, 255, 127, 239, 15, 148, 84, 255, 255, 255, 127, 93, 228, 140, 113, 193, 31, 189, 55, 96, 54, 250, 30, 84, 226, 216, 113, 99, 72, 163, 13, 50, 234, 126, 118, 255, 127, 255, 255, 254, 255, 255, 127, 92, 114, 98, 200, 125, 246, 203, 149, 4, 97, 96, 182, 215, 241, 170, 157, 65, 72, 193, 159, 139, 241, 161, 155, 106, 43, 238, 143, 0, 0, 255, 127, 170, 29, 38, 142, 189, 17, 0, 138, 0, 0, 255, 127, 161, 27, 114, 142, 204, 21, 128, 137, 129, 9, 51, 106, 39, 14, 84, 98, 115, 14, 93, 100, 0, 10, 66, 110, 65, 238, 254, 117, 254, 245, 188, 145)
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_2u066")
+shadow_mesh = SubResource("ArrayMesh_ygp1x")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tsk0h"]
+render_priority = 0
+shader = ExtResource("9_11jft")
+shader_parameter/time = 0.0
+shader_parameter/swirl_texture = ExtResource("11_gq0mh")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oiojp"]
+size = Vector3(1, 7.81363, 13.4898)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0nmm5"]
+shader = ExtResource("2_5srsn")
+shader_parameter/vhs_resolution = Vector2(1500, 1500)
+shader_parameter/samples = 2
+shader_parameter/crease_noise = 0.7
+shader_parameter/crease_opacity = 0.5
+shader_parameter/filter_intensity = 0.1
+shader_parameter/tape_crease_smear = 0.2
+shader_parameter/tape_crease_intensity = 0.2
+shader_parameter/tape_crease_jitter = 0.1
+shader_parameter/tape_crease_speed = 0.2
+shader_parameter/tape_crease_discoloration = 1.0
+shader_parameter/bottom_border_thickness = 6.0
+shader_parameter/bottom_border_jitter = 6.0
+shader_parameter/noise_intensity = 0.3
+shader_parameter/noise_texture = ExtResource("3_e5mht")
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xp7lc"]
 
@@ -328,6 +345,16 @@ transform = Transform3D(2.56, 0, 0, 0, 3.5, 0, 0, 0, 2.7, -1.12541, 0.871145, 0.
 material_override = SubResource("StandardMaterial3D_q3wnj")
 mesh = SubResource("BoxMesh_cf0e3")
 
+[node name="Wall5" type="MeshInstance3D" parent="Level/Walls"]
+transform = Transform3D(6.5, 0, 0, 0, -2.30359e-07, 2.915, 0, -5.27, -1.27419e-07, 0.0764084, 8.41865, 7.57787)
+material_override = SubResource("StandardMaterial3D_b8kmd")
+mesh = SubResource("ArrayMesh_l2mmb")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="Level/Walls"]
+transform = Transform3D(6.5, 0, 0, 0, -2.30359e-07, 2.915, 0, -5.27, -1.27419e-07, 0.0764084, 8.41865, 7.57787)
+shape = SubResource("ConvexPolygonShape3D_msnx7")
+
 [node name="OmniLight3D" type="OmniLight3D" parent="Level"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.37241, 0.226622)
 light_color = Color(0.823643, 0.822398, 1.15514e-06, 1)
@@ -365,6 +392,46 @@ shape = SubResource("BoxShape3D_ut11y")
 [node name="RadioPlayer" type="AudioStreamPlayer3D" parent="Level/Radio/Area3D"]
 stream = ExtResource("6_ukwtc")
 volume_db = -10.0
+
+[node name="RadioPlayer2" type="AudioStreamPlayer3D" parent="Level/Radio/Area3D"]
+stream = ExtResource("7_jc7ih")
+
+[node name="Pizza_02" type="MeshInstance3D" parent="Level"]
+transform = Transform3D(-6.4377e-08, 0, -1.47277, 0, 1.47277, 0, 1.47277, 0, -6.4377e-08, 0.141944, 1.38707, 0.329792)
+visible = false
+material_override = SubResource("StandardMaterial3D_uu0i0")
+mesh = SubResource("ArrayMesh_sy6fa")
+skeleton = NodePath("")
+
+[node name="DoorKnockPlayer" type="AudioStreamPlayer3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.4237, 2.76215, 0)
+stream = ExtResource("8_ymy5k")
+
+[node name="Portal" type="StaticBody3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 2.575, 0, 0, 0, 5.285, -10.568, 1.84762, 0.135035)
+visible = false
+script = ExtResource("9_7xa7u")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/Portal"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.175264, 0.953079, 0.0331116)
+shape = SubResource("BoxShape3D_kwnma")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Level/Portal"]
+transform = Transform3D(2.56, 0, 0, 0, 3.5, 0, 0, 0, 2.7, -1.12716, 1.20764, 0.00712288)
+material_override = SubResource("ShaderMaterial_tsk0h")
+mesh = SubResource("BoxMesh_cf0e3")
+
+[node name="PortalPlayer" type="AudioStreamPlayer3D" parent="Level/Portal"]
+stream = ExtResource("12_bxyed")
+volume_db = 5.0
+
+[node name="PortalEntrance" type="Area3D" parent="Level"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.61457, 0.65658, 0)
+script = ExtResource("14_3s10c")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/PortalEntrance"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010561, 3.40681, 0.357917)
+shape = SubResource("BoxShape3D_oiojp")
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 10.9468, 1.69257, 0.200784)
@@ -430,6 +497,9 @@ fit_content = true
 scroll_active = false
 scroll_following = true
 
+[node name="TypingSoundPlayer" type="AudioStreamPlayer" parent="CharacterBody3D/Head/Camera3D/CanvasLayer/DialogueBox"]
+stream = ExtResource("12_lnihy")
+
 [node name="Pizza_01" type="MeshInstance3D" parent="CharacterBody3D/Head/Camera3D"]
 transform = Transform3D(-6.4377e-08, 0, -1.47277, 0, 1.47277, 0, 1.47277, 0, -6.4377e-08, 0.322584, -0.357373, -0.574953)
 material_override = SubResource("StandardMaterial3D_uu0i0")
@@ -460,4 +530,8 @@ script = ExtResource("16_pa8w3")
 
 [connection signal="body_entered" from="Level/Radio/Area3D" to="Level/Radio" method="_on_area_3d_body_entered"]
 [connection signal="body_exited" from="Level/Radio/Area3D" to="Level/Radio" method="_on_area_3d_body_exited"]
+[connection signal="finished" from="Level/Radio/Area3D/RadioPlayer" to="CharacterBody3D/RadioInteraction" method="_on_radio_player_finished"]
+[connection signal="finished" from="Level/DoorKnockPlayer" to="CharacterBody3D/RadioInteraction" method="_on_door_knock_player_finished"]
+[connection signal="finished" from="Level/Portal/PortalPlayer" to="CharacterBody3D/RadioInteraction" method="_on_portal_player_finished"]
+[connection signal="body_entered" from="Level/PortalEntrance" to="Level/Radio" method="_on_portal_entrance_body_entered"]
 [connection signal="finished" from="CharacterBody3D/DoorInteraction/DoorKnockPlayer" to="CharacterBody3D/DoorInteraction" method="_on_door_knock_player_finished"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://bkhk3gjr0d10t"]
+[gd_scene load_steps=48 format=3 uid="uid://bkhk3gjr0d10t"]
 
 [ext_resource type="Texture2D" uid="uid://qv2djyxnqvp" path="res://assets/- Classic 64 Asset Pack 0.6/Ground/Materials/grass_03.png" id="1_6e15r"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_cmb6n"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://djv6kd3e1msw5" path="res://assets/PS1 Dark Fantasy Horror Game Assets (by Stark Crafts)/PS1_ForestAsset/PS1_NaturAssetCollection-a8e2c3d6c9daaca9c9b36a7bddbaefc7_wood.jpg" id="9_urev1"]
 [ext_resource type="Texture2D" uid="uid://cg3ccu3yltc0n" path="res://assets/PSX_Models_And_Textures/All/Textures/Foods_04.jpg" id="14_l0mow"]
 [ext_resource type="Script" path="res://scenes/DialogueManager.gd" id="15_wflko"]
+[ext_resource type="AudioStream" uid="uid://crpl65pjwrytq" path="res://sound_effects/Horror SFX Free/House & Office/Typing.wav" id="16_yxd7k"]
 [ext_resource type="Script" path="res://scripts/door_interaction.gd" id="17_vdbem"]
 [ext_resource type="Script" path="res://scripts/DialogueNarration.gd" id="19_w7r77"]
 [ext_resource type="Script" path="res://scripts/radio_interaction.gd" id="21_6lgbm"]
@@ -752,6 +753,9 @@ offset_bottom = 101.0
 fit_content = true
 scroll_active = false
 scroll_following = true
+
+[node name="TypingSoundPlayer" type="AudioStreamPlayer" parent="CharacterBody3D/Head/Camera3D/CanvasLayer/DialogueBox"]
+stream = ExtResource("16_yxd7k")
 
 [node name="Pizza_01" type="MeshInstance3D" parent="CharacterBody3D/Head/Camera3D"]
 transform = Transform3D(-6.4377e-08, 0, -1.47277, 0, 1.47277, 0, 1.47277, 0, -6.4377e-08, 0.322584, -0.357373, -0.574953)

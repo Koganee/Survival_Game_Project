@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3udq6e8d8fy5"
+path="res://.godot/imported/Gore_Wet_7.wav-961d008659c320d052bba3bfc7146168.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/Monsters & Ghosts/Gore_Wet_7.wav"
+dest_files=["res://.godot/imported/Gore_Wet_7.wav-961d008659c320d052bba3bfc7146168.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

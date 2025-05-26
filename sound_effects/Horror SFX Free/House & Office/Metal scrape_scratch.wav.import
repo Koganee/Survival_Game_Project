@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cu1ljnjkgwbrv"
+path="res://.godot/imported/Metal scrape_scratch.wav-3aae38cf31cf80aab8ab66807b2d35ff.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/House & Office/Metal scrape_scratch.wav"
+dest_files=["res://.godot/imported/Metal scrape_scratch.wav-3aae38cf31cf80aab8ab66807b2d35ff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

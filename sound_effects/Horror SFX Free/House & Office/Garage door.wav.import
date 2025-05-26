@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3x6d8v8f25xk"
+path="res://.godot/imported/Garage door.wav-4232344bde739d5187c4486078b0fd33.sample"
+
+[deps]
+
+source_file="res://sound_effects/Horror SFX Free/House & Office/Garage door.wav"
+dest_files=["res://.godot/imported/Garage door.wav-4232344bde739d5187c4486078b0fd33.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
